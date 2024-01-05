@@ -5,9 +5,9 @@ narrow: true
 title: Welcome to my Webpage!
 ---
 
-I am an associate professor of Psychology at the University of Findlay.  I am passionate about researching topics in visual cognition, coding, and learning.  I hope to share my research, findings, and code with others.    
+I am an associate professor of Psychology at the University of Findlay.  I am passionate about researching topics in visual cognition, coding (using Python and R), and learning.  I share my research, findings, and code with others.    
 
-My research focuses on event perception.  Events correspond with actions that have a defined start time and end time.  For example, events can include: driving to work, making breakfast, and watching a movie.  Each example consists of an activity that most people would agree has a beginning and ending.  Events have been shown to affect our attention, memory, and comprehesion.  Some of my research has studied how we first build events.  
+One of my lines of research focuses on event perception.  Events correspond with actions that have a defined start time and end time.  For example, events can include: driving to work, making breakfast, and watching a movie.  Each example consists of an activity that most people would agree has a beginning and ending.  Being able to detect events has been shown to affect other cognitive systems, like attention, memory, and comprehesion.  Some of my research has studied how we first build events.  
 
 People track many things associated with an event.  Some of these include the characters, their goals, and the time/place of the event.  Since people consistently track these, then the characteristic recognzied first may also be used to build an event.  I presented participants with briefly presented images and asked them to identify either the action or the setting.  [The data indicated that the setting was recognized before the setting, suggesting this may be the first characteristic used to perceive an event.](https://jov.arvojournals.org/article.aspx?articleid=2141724&resultClick=1)  
 
