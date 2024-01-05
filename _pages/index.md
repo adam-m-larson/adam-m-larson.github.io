@@ -5,7 +5,7 @@ narrow: true
 title: Welcome to my Webpage!
 ---
 
-I am an associate professor of Psychology at the University of Findlay.  I am passionate about researching topics in visual cognition, coding, and learning.  I hope to share my those topics with others.    
+I am an associate professor of Psychology at the University of Findlay.  I am passionate about researching topics in visual cognition, coding, and learning.  I hope to share my research, findings, and code with others.    
 
 My research focuses on event perception.  Events correspond with actions that have a defined start time and end time.  For example, events can include: driving to work, making breakfast, and watching a movie.  Each example consists of an activity that most people would agree has a beginning and ending.  Events have been shown to affect our attention, memory, and comprehesion.  Some of my research has studied how we first build events.  
 
