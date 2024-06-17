@@ -1,3 +1,15 @@
-Friday Theme is a theme for Jekyll using Bootstrap 4.4 designed to build a great personal web site with a portfolio, blog and project documentation. It is compatible with GitHub Pages. It supports all the Bootstrap components, it has blogs with tags, it has syntax highlighting and it has SVG icons. It is customisable with SCSS by simply changing the default boostrap variables.
-
-It is maintained by Simon Freytag on [GitHub](https://github.com/sfreytag/friday-theme) and it was built originally for [Simon's own portfolio](http://www.freytag.org.uk).
+# Employment History
+Univeristy of Findlay
+- 2019 to Present: Associate Professor of Psychology
+- 2013 to 2019: Assistant Professor of Psychology
+  
+# Education
+- 2013: Ph.D. in Psychology at Kansas State University
+- 2010: M.S. in Psychology at Kansas State University
+- 2006: B.S. in Psychology at Iowa State University
+  
+# Skills
+- Proficient in Python, R
+- Moderate proficiency in Portugues
+  
+# Publication
