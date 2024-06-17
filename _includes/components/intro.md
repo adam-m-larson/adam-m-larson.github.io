@@ -24,9 +24,7 @@ The deep learning models I have trained focus on classifiation tasks
 
 **R**
 I use and teach R for descriptive and inferential statistics.
-
-- Moderate proficiency in Portuguese
-  
+ 
 ## Publications
 
 ## Interests
