@@ -22,10 +22,14 @@ I have construced Psychology experiments in Python using PsychoPy
 I conduct exploratory data analysis with libraries including numpy, pandas, matplotlib, and seaborn.  Inferential statistics are computed using statsmodel.  For deep learning, I have used libraries like PyTorch, Scikit-Learn, and fast.ai
 The deep learning models I have trained focus on classifiation tasks
 
-**R**
+**R** </br>
 I use and teach R for descriptive and inferential statistics.
  
-## Publications
+## Selected Publications (For an extensive view of my work, visit my [Google Scholar Profile])(https://scholar.google.com/citations?hl=en&user=NJPdoTAAAAAJ&view_op=list_works&sortby=pubdate)
+- Loschky, L. C., Larson, A. M., Smith, T. J., & Magliano, J. P. (2020). The scene perception & event comprehension theory (SPECT) applied to visual narratives. Topics in cognitive science, 12(1), 311-351.
+- Loschky, L. C., Larson, A. M., Magliano, J. P., & Smith, T. J. (2015). What Would Jaws Do? The Tyranny of Film and the Relationship between Gaze and Higher-Level Narrative Film Comprehension. PLoS ONE, 10(11), e0142474. doi: 10.1371/journal.pone.0142474
+- Larson, A. M., Freeman, T. E., Ringer, R. V., & Loschky, L. C. (2014). The spatiotemporal dynamics of scene gist recognition. Journal of Experimental Psychology: Human Perception and Performance, 40(2), 471 – 487.
+
 
 ## Interests
 I love spending time with my family!!!  I love explore Columbus and the surrounding area.  And finding new parks to take my boys to.  
