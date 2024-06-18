@@ -37,7 +37,7 @@ I love spending time with my family!!!  I love explore Columbus and the surround
  
 {% highlight html %}
 ![The Larson family!](/theme/img/family.jpg)
-{% end highlight %}
+{% endhighlight %}
 
 In my spare time I like reading and cooking.  I tend to read sci-fi and finished "Project Hail Mary".  If not sci-fi, then I am liking reading a computer programming text or a cook book.  I enjoy warm weather so I can BBQ and use my vertical smoker.  I am also trying to improve my Italian.  I am pretty good at making pasta, but am working on a pomodoro sauce and making the perfect pizza crust.  
 
