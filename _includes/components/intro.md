@@ -35,7 +35,7 @@ For an extensive view of my work, visit my [Google Scholar Profile](https://scho
 ## Interests
 I love spending time with my family!!!  I love explore Columbus and the surrounding area.  And finding new parks to take my boys to. 
  
-![The Larson family!](/theme/img/family.jpg)
+![The Larson family!](/theme/img/family_resized.jpg)
 
 In my spare time I like reading and cooking.  I tend to read sci-fi and finished "Project Hail Mary".  If not sci-fi, then I am liking reading a computer programming text or a cook book.  I enjoy warm weather so I can BBQ and use my vertical smoker.  I am also trying to improve my Italian.  I am pretty good at making pasta, but am working on a pomodoro sauce and making the perfect pizza crust.  
 
