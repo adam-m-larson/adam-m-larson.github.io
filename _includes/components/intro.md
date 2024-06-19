@@ -17,10 +17,7 @@ In all of my classes, I strive to develop students' critical thinking and proble
 ## Technical Skills
 ### Proficient with Python, R, and SPSS
 
-**Python:** 
-I have construced Psychology experiments in Python using PsychoPy
-I conduct exploratory data analysis with libraries including numpy, pandas, matplotlib, and seaborn.  Inferential statistics are computed using statsmodel.  For deep learning, I have used libraries like PyTorch, Scikit-Learn, and fast.ai
-The deep learning models I have trained focus on classifiation tasks
+**Python:** I have construced Psychology experiments in Python using PsychoPy.  I conduct exploratory data analysis with libraries including numpy, pandas, matplotlib, and seaborn.  Inferential statistics are computed using statsmodel.  For deep learning, I have used libraries like PyTorch, Scikit-Learn, and fast.ai.  The deep learning models I have trained focus on classifiation tasks.
 
 **R:** 
 I use and teach R for descriptive and inferential statistics.
