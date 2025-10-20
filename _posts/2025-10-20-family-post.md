@@ -24,12 +24,13 @@ The first picture shows Leonardo.  He is 18 months old in this picture and loves
 The second picture shows Vincent.  On 10/19/2025, he said that he wanted to draw.  Which he normally does not like to do.  But drew a Tesla Cybertruck....all by himself and colored it in.  The next day, he wanted to add trees, but he was sick.  More likely, he was distracted by the TV and watched toy car restoration videos instead. 
 
 <div class="card mb-3">
-    <img class="card-img-top" src="/theme/img/Vincents-drawing"/>
+    <img class="card-img-top" src="/theme/img/Vincents-drawing.jpg"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Vincent showing off his drawing.
         </div>
     </div>
 </div>
+
 
 
