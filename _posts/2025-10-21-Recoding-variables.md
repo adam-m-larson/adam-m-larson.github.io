@@ -1,9 +1,8 @@
 ---
-title: Options for recoding a variable
+title: Recoding a variable with Pandas's replace function
 tags:
   - Python
   - Recoding variables
-  - Numpy
   - Pandas
 ---
 
@@ -12,10 +11,10 @@ When analyzing data from a survey, it is common that some questions have to be r
 However, what if I asked Vincent, my 4.5 year old son, "Does your tummy feel okay?"  This question is still asking about pain, but it is framed in terms of "okay-ness" instead of pain.  In other words, I could plot your experience on a continuum, where one side is pain and the other is "okay-ness".  if I still REALLY care about how much pain he fells in his tummy, I could recode his "okay-ness" reponse into a pain response.  
 
 <div class="card mb-3">
-    <img class="card-img-top" src="/theme/img/Leo-with-frosting.jpg"/>
+    <img class="card-img-top" src="/theme/img/Vindent-at-Kia.jpg"/>
     <div class="card-body bg-light">
         <div class="card-text">
-            Leonardo eating frosting on a cupcake, but not the cupcake itself.
+            Vicent wanted me to include this picture of him and a Kia.  It's his favorite.  And has nothing to do with recoding a variable.  
         </div>
     </div>
 </div>
@@ -29,7 +28,7 @@ There a couple of options to choose from that are from different libraries.  In 
 
 ### Python
 
-And here's some Python from [this tutorial](https://www.tutorialspoint.com/python/python_classes_objects.htm):
+And here's an additional reference for the [Pandas's replace function](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html):
 
 {% highlight python %}
 import pandas as pd
@@ -41,10 +40,28 @@ On the first line, I've import the Pandas library, and then I created a variable
 
 **Note:  Reverse coding by hand is a terrible idea.  Don't do it.  It takes way too much time and is error prone.  I say this because I have seen many undergrads to just that.  Don't!  There are better ways.  
 
+In the codeblock below, I'll show how to create a new variable in the data frame.  The use replace to reverse code the Pain Score into a new variable called, `Reverse_coded_pain_score`.
 
-## Supported Languages
+{% highlight python%}
 
-The highlighting is done with Rouge and at time of writing [their website] says they support 132 languages. I'm not 100% sure if all those are available in the version bundled within Jekyll. If you have successfully installed this theme, then you can run `rougify list` from the Terminal and you should get a list of supported languages. Or check out [this wiki page](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers).
+df["Reverse_coded_pain_score"] = df['Pain Score'].replace(np.arange(1,11), np.arange(10,0, -1))
+
+{% endhighlight %}
+
+Before the equal size, I've told Python to create a new column called `Reverse_coded_pain_score` and place it in the `df` Data Frame.  After the equal sign, I'm identifying the column with the origianl score `df['Pain Score']`.  I used dot notation to apply the replace function to that data `.replace`.  And in the paratheses I create two lists.  The first is an ordered list starting from 1 and going to 10.  This list represents my original 10 point Pain scale.  The second is an ordered list starting from 10 and going to 1.  This represents the reverse coded list.  So when Python sees a value of 6 in the pain score, it can map that value to the reverse coded list.  
+
+Recoding with pandas's replace function is fast.  And if you make a mistake, you can go back, look at your code, and correct it.  This saves you lots of time so you can spend it doing more important things, like this...
+
+<div class="card mb-3">
+    <img class="card-img-top" src="/theme/img/Leo-sleeping.jpg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Leonardo napping after a hard morning of playing.  
+        </div>
+    </div>
+</div>
+
+
 
 
 
