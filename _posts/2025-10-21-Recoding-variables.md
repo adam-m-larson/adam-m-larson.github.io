@@ -11,7 +11,7 @@ When analyzing data from a survey, it is common that some questions have to be r
 However, what if I asked Vincent, my 4.5 year old son, "Does your tummy feel okay?"  This question is still asking about pain, but it is framed in terms of "okay-ness" instead of pain.  In other words, I could plot your experience on a continuum, where one side is pain and the other is "okay-ness".  if I still REALLY care about how much pain he fells in his tummy, I could recode his "okay-ness" reponse into a pain response.  
 
 <div class="card mb-3">
-    <img class="card-img-top" src="/theme/img/Vindent-at-Kia.jpg"/>
+    <img class="card-img-top" src="/theme/img/Vincent-at-Kia.jpg"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Vicent wanted me to include this picture of him and a Kia.  It's his favorite.  And has nothing to do with recoding a variable.  
@@ -53,13 +53,14 @@ Before the equal size, I've told Python to create a new column called `Reverse_c
 Recoding with pandas's replace function is fast.  And if you make a mistake, you can go back, look at your code, and correct it.  This saves you lots of time so you can spend it doing more important things, like this...
 
 <div class="card mb-3">
-    <img class="card-img-top" src="/theme/img/Leo-sleeping.jpg"/>
+    <img class="card-img-top" src="/theme/img/Sleeping-Leo.jpg"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Leonardo napping after a hard morning of playing.  
         </div>
     </div>
 </div>
+
 
 
 
