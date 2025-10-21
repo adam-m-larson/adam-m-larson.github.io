@@ -36,7 +36,7 @@ import pandas as pd
 df = pd.DataFrame({'Pain Score': [10, 8, 7, 2], 'Okay Score': [1, 3, 4, 9]})
 {% endhighlight %}
 
-On the first line, I've import the Pandas library, and then I created a variable called `df`.  This contains a matrix of scores.  The first column is called `Pain Score' and each patient has given a pain rating on a 10 point scale.  The second column is called `Okay score', where I reverse coded the pain score into this column by hand.  
+On the first line, I've import the Pandas library, and then I created a variable called `df`.  This contains a matrix of scores.  The first column is called `Pain Score` and each patient has given a pain rating on a 10 point scale.  The second column is called `Okay score', where I reverse coded the pain score into this column by hand.  
 
 **Note:  Reverse coding by hand is a terrible idea.  Don't do it.  It takes way too much time and is error prone.  I say this because I have seen many undergrads to just that.  Don't!  There are better ways.  
 
@@ -60,6 +60,7 @@ Recoding with pandas's replace function is fast.  And if you make a mistake, you
         </div>
     </div>
 </div>
+
 
 
 
