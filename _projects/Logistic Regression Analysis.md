@@ -15,7 +15,7 @@ This post will focus on four parts:
 3. Analyzing the data using logistic regression
 4. Visualizing the data
 
-### Part 1
+## Part 1: Overview of the project
 
 Our view of the visual world is quite extensive. It allows us a glimpse as to where we are, what objects and poeple are in front of us, how we may go about navigating the enivornment, and so on. However, with such a large view of the world, only a very small percentage of it can extract out sharp details. This area is called central vision and we place our gaze on things that require this sharp detailed vision, like object and face recognition. Outside of central vision is peripheral vision. It takes up most of our visual field. Furthermore, it only detects blurry visual details and motion. Would these visual features be enough for people to recognize the scene category of an image (e.g., "Forest" vs. "Mountain")?
 
@@ -71,4 +71,5 @@ The results are shown in the line graph below.  The x-axis varies the size of th
 
 This shows central vision is not necessary for the task of scene categorization.  Furthermore, the visual periphery can extract the necessary information needed to categorize the environment.  It is possible that after recognizing our current location, that we use that information to guide our attention to critical objects, people, and routes to interact with within that environment.
 
-## Part 2
+## Part 2: Computing Descriptive Statistics with Python
+
