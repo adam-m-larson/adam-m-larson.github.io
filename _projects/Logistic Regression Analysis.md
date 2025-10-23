@@ -21,7 +21,16 @@ Our view of the visual world is quite extensive. It allows us a glimpse as to wh
 
 This study presented participants with images that presented information in central vision or peripheral vision. Like in the figure below, the Window condition presented visual information in central vision, whereas the scotoma condition blocked central visual information except for that in the periphery.
 
-![m_jov-9-10-6-fig002.jpeg](attachment:m_jov-9-10-6-fig002.jpeg)
+<div class="card mb-3">
+    <img class="card-img-top" src="/theme/img/ScoWin_img/Leo-with-frosting.jpeg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Example images of a Window and Scotoma image.  Window images show visual scene content in central vision.  Whereas, Scotoma images present content in peripheral vision.
+        </div>
+    </div>
+</div>
+
+
 
 
 
