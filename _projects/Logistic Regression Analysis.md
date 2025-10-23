@@ -21,6 +21,7 @@ Our view of the visual world is quite extensive. It allows us a glimpse as to wh
 
 This study presented participants with images that presented information in central vision or peripheral vision. Like in the figure below, the Window condition presented visual information in central vision, whereas the scotoma condition blocked central visual information except for that in the periphery.
 
-m_jov-9-10-6-fig002.jpeg
+![m_jov-9-10-6-fig002.jpeg](attachment:m_jov-9-10-6-fig002.jpeg)
+
 
 
