@@ -1,5 +1,5 @@
 ---
-title: Install and Use Friday Theme
+title: Using logistic regression to analyze scene cateogization performance between central vs. peripheral visual fields
 ---
 
 ## About
@@ -11,4 +11,5 @@ This script will focus on:
 1. Providing a summary of the research examining how central and peripheral vision contributes to the task of scene classification
 2. Computing descriptive statistics from the data collected
 3. Analyzing the data using logistic regression
+
 4. Visualizing the data
