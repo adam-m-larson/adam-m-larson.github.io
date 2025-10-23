@@ -8,6 +8,8 @@ tags:
 
 When analyzing data from a survey, it is common that some questions have to be recoded.  Commonly, this means reverse coding, but the specific recoding procedure depends on the author's recommendation who developed the scale.  Let me give an example.  Say you are injured, were taken to the hospital, and the staff in the  emergency room asks you to rate your pain on a 10-point scale.  One represents the absense of pain.  Conversely, a ten indicates the worst pain you have ever felt.  In this case, your response represents the magnitude of pain experienced and we wouldn't reverse code your answer.
 
+<!--more-->
+
 However, what if I asked Vincent, my 4.5 year old son, "Does your tummy feel okay?"  This question is still asking about pain, but it is framed in terms of "okay-ness" instead of pain.  In other words, I could plot your experience on a continuum, where one side is pain and the other is "okay-ness".  if I still REALLY care about how much pain he fells in his tummy, I could recode his "okay-ness" reponse into a pain response.  
 
 <div class="card mb-3">
@@ -18,9 +20,6 @@ However, what if I asked Vincent, my 4.5 year old son, "Does your tummy feel oka
         </div>
     </div>
 </div>
-
-
-<!--more-->
 
 To revese code "okay-ness" into my pain scale, I would simply reverse the order of my scale.  So, a Okay score of 10 would become a pain score of 1.  A okay score of 9 becomes a pain score of 2, an 8 is now a 3, and so forth.
 
@@ -60,6 +59,7 @@ Recoding with pandas's replace function is fast.  And if you make a mistake, you
         </div>
     </div>
 </div>
+
 
 
 
