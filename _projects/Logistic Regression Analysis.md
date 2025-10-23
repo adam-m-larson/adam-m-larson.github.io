@@ -17,4 +17,10 @@ This post will focus on:
 
 ### Research Summary
 
+Our view of the visual world is quite extensive. It allows us a glimpse as to where we are, what objects and poeple are in front of us, how we may go about navigating the enivornment, and so on. However, with such a large view of the world, only a very small percentage of it can extract out sharp details. This area is called central vision and we place our gaze on things that require this sharp detailed vision, like object and face recognition. Outside of central vision is peripheral vision. It takes up most of our visual field. Furthermore, it only detects blurry visual details and motion. Would these visual features be enough for people to recognize the scene category of an image (e.g., "Forest" vs. "Mountain")?
+
+This study presented participants with images that presented information in central vision or peripheral vision. Like in the figure below, the Window condition presented visual information in central vision, whereas the scotoma condition blocked central visual information except for that in the periphery.
+
+m_jov-9-10-6-fig002.jpeg
+
 
