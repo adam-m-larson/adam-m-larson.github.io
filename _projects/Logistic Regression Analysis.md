@@ -142,3 +142,23 @@ plt.show()
 
 ## Part 3: Statistical Analysis with statsmodels
 
+To start, I'll limit the analysis to the experimental trials (Scotoma vs. Window images).  And I'll use statsmodels to perform a logistic regression.  I selected this regression because the dependent variable `correct` is dichotomous, participants made either a correct or incorrect response.  
+
+{% highlight python %}
+
+exp_data = df.query("recode_condition == 'Experimental'") # Selects only the experimental trials
+print(f"the data contains {exp_data.shape[0]} rows and {exp_data.shape[1]} columns.")
+
+{% endhighlight %}
+
+Now the rows in the data frame have been cut in half (a little over 16,000).  Next i'll imoprt statsmodel.
+
+{% highlight python %}
+
+import statsmodels
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+from patsy import dmatrices
+
+{% endhighlight %}
+
