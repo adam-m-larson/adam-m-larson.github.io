@@ -1,5 +1,5 @@
 ---
-title: Using logistic regression to analyze scene cateogization performance between central vs. peripheral visual fields
+title: Comparing scene cateogization performance between central vs. peripheral vision
 ---
 
 ## Summary
@@ -141,3 +141,4 @@ plt.show()
 </div>
 
 ## Part 3: Statistical Analysis with statsmodels
+
