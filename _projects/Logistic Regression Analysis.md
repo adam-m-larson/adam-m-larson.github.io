@@ -112,3 +112,32 @@ df['recode_condition'] = df['recode_condition'].astype("category")
 df['recode_view'] = df['recode_view'].astype("category")
 
 {% endhighlight %}
+
+Let's take a look at the descriptive statistics of our experimental variables.  I'll use the groupby function to compute accuracy of scene categorization as a product of the Experimental condition only, Window vs. Scotoma image, and the image manipulation size.  Then, I'll rename those columns and plot the result using seaborn's relplot function.
+
+{% highlight python %}
+desc = df.groupby(["recode_condition", "recode_view", "x_diam"], as_index=False).agg({'correct': ['mean', 'std']})
+desc.columns = ['Condition', 'View', 'size', 'mean correct', 'mean std']
+
+sns.relplot(data=desc.query('Condition == "Experimental"'),
+            x = "size",
+            y = "mean correct",
+            hue = "View",
+            kind = "line"
+           )
+plt.ylabel("Accuracy (Percentage Correct)")
+plt.xlabel("Radius of the Window or Scotoma Image")
+plt.show()
+
+{% endhighlight %}
+
+<div class="card mb-3">
+    <img class="card-img-top" src="/theme/img/ScoWin_img/Scene-categorization-accuracy.jpg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            A line graph showing scene categorization accuracy as a function of the size of the Window or Scotoma image viewed.   
+        </div>
+    </div>
+</div>
+
+## Part 3: Statistical Analysis with statsmodels
