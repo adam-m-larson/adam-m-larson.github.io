@@ -82,3 +82,33 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 {% endhighlight %}
 
+Then, I'll import the data, check its shape, and the column's data types
+
+{% highlight python %}
+
+df = pd.read_csv('ScoWin1_(1-98)(new_vars).csv')
+print(f"The data contains {df.shape[1]) columns and {df.shape[0]} rows.")
+df.info()
+
+{% endhighlight %}
+
+The print statement reports there are 22 columns and over 30.000 rows.  The data was loaded, and below, I'll list out the critical grouping variables for the experiment.
+
+1. `type` defines whether the image presented was a Window or Scotoma image (type: [1= window or 2= scotoma])
+2. `x_diam` defines the size of the Window/Scotoma radius in pixels (25, 124, 269, 337 px)
+3. `Condition` defines the experimental conditions.  The control condition presented participants with the full image (coded as Condition = 1 or 2).  Those assigned to the Window or Scotoma Conditions are coded as 3 and 4, respectively.
+
+The dependent variable will be:
+1. `correct` (is the response correct [=1] or incorrect [=0])
+
+Instead of running analyses based on the coding contained in the data, I will recode the 'condition' and 'type' into new variables using text to identify conditions (e.g., "Window", "Scotoma", "Control", or "Experimental").  After recoding the new variables, I'll assign them the 'category' dtype. 
+
+{% highlight python %}
+
+df['recode_condition'] = df['condition'].apply(lambda x: 'Control' if (x == 1 or x == 2) else 'Experimental')
+df['recode_view'] = df['type'].apply(lambda x: 'Window' if (x==1) else 'Scotoma')
+
+df['recode_condition'] = df['recode_condition'].astype("category")
+df['recode_view'] = df['recode_view'].astype("category")
+
+{% endhighlight %}
