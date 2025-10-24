@@ -73,3 +73,12 @@ This shows central vision is not necessary for the task of scene categorization.
 
 ## Part 2: Computing Descriptive Statistics with Python
 
+To begin, I'll import numpy, pandas, matplotlib, and seaborn.
+
+{% highlight python%}
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+import seaborn as sns
+{% endhighlight %}
+
