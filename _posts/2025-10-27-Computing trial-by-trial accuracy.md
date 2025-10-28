@@ -12,7 +12,7 @@ Computing accuracy from an experiment is not too different from recoding a varia
 <!--more-->
 
 | Trial Number | Presented Stimuli | Participant Response |
-| ------------ | ----------------- | -------------------- |
+| :----------: | :---------------: | :------------------: |
 | 1 | 1 | 0 |
 | 2 | 1 | 1 |
 | 3 | 0 | 0 |
@@ -38,3 +38,4 @@ df["Correct Response"] = np.where(df["Presented Stimuli"] == df["Participant Res
 {% endhighlight %}
 
 This statment compares the `Presented Stimuli` column to the `Participant Response` column.  If the values match, the the `Correct Response` column gets a value of 1.  And if they don't match, then it gets a zero value.
+
