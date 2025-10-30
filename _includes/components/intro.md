@@ -1,7 +1,7 @@
 I am an Associate Professor of Psychology at the University of Findlay.  I teach a diverse set of classes with the overarching goal of developing critical thinking skills and using data to drive discovery.  Importantly, these two goals allows us to put our knowledge to the test.  To engage in this process, we require thoughtful question and/or hypothesis, an experiment or two, and importantly, data.  By visualizing and analyzing data we can better understand what we do know and what we don't, and use that to form the basis of a greater truth about us and the world.   
 
 ## Technical Skills
-### Proficient with Python and SPSS
+#### Proficient with Python and SPSS; Familiar with SQL, Tableau/Power BI
 
 **Python:** I have used Python to create experiments and analyze data.  I commonly use llibraries for the following tasks:   
  - Data Wrangling: numpy and pandas
@@ -9,8 +9,8 @@ I am an Associate Professor of Psychology at the University of Findlay.  I teach
  - Inferential statisitcs:  scipy and statsmodel
  - Machine Learning:  Pytorch, fast.ai, and Scikit-Learn
 
-### Familiar with SQL, Tableau/Power BI
-
+<br>
+<br>
  
 ## Selected Publications
 For an extensive view of my work, visit my [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=NJPdoTAAAAAJ&view_op=list_works&sortby=pubdate)
