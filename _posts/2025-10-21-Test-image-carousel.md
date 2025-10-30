@@ -14,7 +14,7 @@ Here's the carousel in action.
     <div class="carousel-inner">
         {% for img in page.images %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <img src="{{ img }}" class="d-block w-100" alt="">
+                <img src="{{ img }}" width = "500" class="d-block w-100" alt="">
             </div>
         {% endfor %}
     </div>
@@ -28,3 +28,4 @@ Here's the carousel in action.
     </a>
 
 </div>
+
