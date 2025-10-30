@@ -10,7 +10,6 @@ I am an Associate Professor of Psychology at the University of Findlay.  I teach
  - Machine Learning:  Pytorch, fast.ai, and Scikit-Learn
 
 <br>
-<br>
  
 ## Selected Publications
 For an extensive view of my work, visit my [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=NJPdoTAAAAAJ&view_op=list_works&sortby=pubdate)
