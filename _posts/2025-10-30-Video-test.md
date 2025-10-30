@@ -12,7 +12,7 @@ At trunk or treat, Leo displayed his most ferocious roar!  It was adorable.
 
 <div>
     <video width="320" controls> 
-      <source src="/theme/img/vid/roar.mp4" type=video/mp4>
+      <source src="/theme/img/Roar.mp4" type=video/mp4>
     </video>
 </div>
 
