@@ -1,5 +1,7 @@
 I am an Associate Professor of Psychology at the University of Findlay.  I teach a diverse set of classes with the overarching goal of developing critical thinking skills and using data to drive discovery.  Importantly, these two goals allows us to put our knowledge to the test.  To engage in this process, we require thoughtful question and/or hypothesis, an experiment or two, and importantly, data.  By visualizing and analyzing data we can better understand what we do know and what we don't, and use that to form the basis of a greater truth about us and the world.   
 
+<br>
+
 ## Technical Skills
 #### Proficient with Python and SPSS; Familiar with SQL, Tableau/Power BI
 
@@ -17,15 +19,19 @@ For an extensive view of my work, visit my [Google Scholar Profile](https://scho
 - Loschky, L. C., Larson, A. M., Magliano, J. P., & Smith, T. J. (2015). What Would Jaws Do? The Tyranny of Film and the Relationship between Gaze and Higher-Level Narrative Film Comprehension. PLoS ONE, 10(11), e0142474. doi: 10.1371/journal.pone.0142474
 - Larson, A. M., Freeman, T. E., Ringer, R. V., & Loschky, L. C. (2014). The spatiotemporal dynamics of scene gist recognition. Journal of Experimental Psychology: Human Perception and Performance, 40(2), 471 – 487.
 
-## Employment History
+<br>
+
+## Employment & Education 
 **Univeristy of Findlay**
 - 2019 to Present: Associate Professor of Psychology
 - 2013 to 2019: Assistant Professor of Psychology
-  
+    
 ## Education
 - 2013: Ph.D. in Psychology at Kansas State University
 - 2010: M.S. in Psychology at Kansas State University
 - 2006: B.S. in Psychology at Iowa State University
+
+<br>
   
 ## Interests
 I love spending time with my family!!!  I love explore Columbus and the surrounding area.  And finding new parks to take my boys to. 
